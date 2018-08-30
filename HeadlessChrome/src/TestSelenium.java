@@ -14,5 +14,6 @@ public class TestSelenium {
 
         WebElement button = driver.findElement(By.xpath("//input[@name='btnLogin']"));
         button.click();
+        driver.quit();
     }
 }
