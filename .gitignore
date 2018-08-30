@@ -26,3 +26,5 @@ hs_err_pid*
 .idea/misc.xml
 .idea/Scraping.iml
 .idea/vcs.xml
+HeadlessChrome/out/production/Scraping/geckodriver.exe
+HeadlessChrome/out/production/Scraping/chromedriver.exe
