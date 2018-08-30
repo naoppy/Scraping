@@ -5,7 +5,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TestSelenium {
     public static void main(String[] args) {
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\naoki\\Desktop\\git\\Scraping\\HeadlessChrome\\geckodriver-v0.21.0-win64\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","HeadlessChrome/geckodriver-v0.21.0-win64/geckodriver.exe");
 
         WebDriver driver = new FirefoxDriver();
         driver.get("http://demo.guru99.com/");
